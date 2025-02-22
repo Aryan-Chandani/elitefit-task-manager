@@ -1,75 +1,99 @@
-# 📋 **EliteFit Task Manager**
+#  **EliteFit Task Manager**
 
-A sleek and responsive **Task Management Application** built with **React**. The app allows users to manage their tasks effectively with features like prioritization, filtering, due date tracking, and task completion management. It ensures smooth user interaction with local storage persistence and intuitive UI.
-
----
-
-##  **Live Demo** 
-[EliteFit Task Manager - Live Demo](https://Aryan-Chandani.github.io/elitefit-task-manager)
+A responsive and feature-rich **Task Management Application** built with **React**, **Vite**, and **Tailwind CSS**. The app allows users to manage tasks efficiently by adding priorities, due dates, and completion statuses, with full search and filter capabilities.
 
 ---
 
 ##  **Features**
-
--  **Add, Delete, and Complete Tasks**
--  **Task Prioritization**: High, Medium, Low
--  **Search and Filter**: Filter tasks based on priority and completion status
--  **Due Date Management**: Sort tasks by due date (displayed in `dd-mm-yyyy` format)
--  **Task Categorization**: Automatically separates tasks into:
-  - Upcoming Tasks
-  - Overdue Tasks
-  - Completed Tasks
--  **Local Storage Persistence**: Saves tasks even after browser refresh
--  **Responsive UI**: Clean and adaptive design for all devices
+-  Add tasks with **priority levels** (High, Medium, Low)
+-  **Due date** assignment and sorting by date
+-  **Update priority** dynamically
+-  **Mark tasks as completed** with visual styling changes
+-  **Search** tasks by title or description
+-  **Filter tasks** by priority and completion status
+-  **Task categorization**: Upcoming, Overdue, Completed
+-  Styled with **Tailwind CSS** for a modern UI
+-  **LocalStorage** support for persistent data
+-  **Deployed on GitHub Pages**
 
 ---
 
-## 🛠️ **Setup Instructions**
+##  **Tech Stack**
+-  **React** – Frontend framework
+-  **Vite** – Fast build tool
+-  **Tailwind CSS** – Utility-first CSS framework
+-  **PostCSS** – CSS processing
+-  **GitHub Pages** – Deployment platform
 
-Follow these steps to run the application locally:
+---
 
-### 1️⃣ **Clone the Repository**
+##  **Live Demo**
+👉 **[EliteFit Task Manager - GitHub Pages](https://Aryan-Chandani.github.io/elitefit-task-manager/)**
+
+---
+
+##  **Getting Started Locally**
+
+### ✅ **Prerequisites**
+- **Node.js** (v20.x LTS recommended)
+- **npm** (v9.x or higher)
+
+### 🔄 **Installation Steps**
 ```bash
+# Clone the repository
 git clone https://github.com/Aryan-Chandani/elitefit-task-manager.git
 cd elitefit-task-manager
-```
 
-### 2️⃣ **Install Dependencies**
-```bash
+# Install dependencies
 npm install
-```
 
-### 3️⃣ **Run the Application**
-```bash
-npm start
+# Start the development server
+npm run dev
 ```
-The application will run at **[http://localhost:3000](http://localhost:3000/)** by default.
+Visit **http://localhost:5173/** in your browser to view the app.
 
 ---
 
-## 🌐 **Deployment** (GitHub Pages)
-To deploy the application:
+## 🌐 **Deployment**
+The project is deployed on **GitHub Pages** using the **gh-pages** branch.
+
+### 📦 **Deployment Steps**
 ```bash
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
 npm run deploy
 ```
-Accessible at: `https://Aryan-Chandani.github.io/elitefit-task-manager`
+
+Ensure the **vite.config.js** file has the correct `base`:
+```javascript
+base: '/elitefit-task-manager/',
+```
 
 ---
 
-##  **Assumptions**
-- The application runs in modern browsers supporting `localStorage`.
-- Users will provide valid date inputs for task deadlines.
-- Due dates are displayed in **dd-mm-yyyy** format for consistency.
-- Responsive design assumes standard viewport sizes.
+##  **Assumptions Made**
+- Tasks are stored in **localStorage**, providing persistence between sessions.
+- Due dates are formatted as **dd-mm-yyyy** for consistency.
+- Priority and completion statuses are visually distinct using Tailwind CSS color schemes.
+- Search matches keywords in **title** and **description** fields.
 
 ---
 
-##  **Potential Future Improvements**
--  **Task Editing**: Modify task details post-creation.
--  **Progress Bar**: Visual tracker for task completion.
--  **Recurring Tasks**: Support for daily/weekly task recurrence.
--  **Dark Mode**: Toggle for user-preferred themes.
--  **Drag & Drop**: Reorder tasks via drag-and-drop functionality.
--  **Data Export/Import**: Backup and restore tasks with JSON files.
+##  **Potential Improvements**
+-  **Dark mode toggle**
+-  **Notification reminders** for upcoming and overdue tasks
+-  **Drag and drop support** for reordering tasks
+-  **Backend integration** (e.g., Firebase) for persistent storage across devices
+-  **User authentication** for personalized task management
+
+---
+
+##  **Acknowledgements**
+-  **React** – [https://reactjs.org/](https://reactjs.org/)
+-  **Tailwind CSS** – [https://tailwindcss.com/](https://tailwindcss.com/)
+-  **Vite** – [https://vitejs.dev/](https://vitejs.dev/)
+-  **GitHub Pages** – [https://pages.github.com/](https://pages.github.com/)
 
 ---
