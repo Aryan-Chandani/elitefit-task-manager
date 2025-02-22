@@ -4,23 +4,23 @@ A sleek and responsive **Task Management Application** built with **React**. The
 
 ---
 
-## 🚀 **Live Demo** (Optional)
+##  **Live Demo** 
 [EliteFit Task Manager - Live Demo](https://Aryan-Chandani.github.io/elitefit-task-manager)
 
 ---
 
-## 🌟 **Features**
+##  **Features**
 
-- ✅ **Add, Delete, and Complete Tasks**
-- 🏷️ **Task Prioritization**: High, Medium, Low
-- 🔍 **Search and Filter**: Filter tasks based on priority and completion status
-- 📅 **Due Date Management**: Sort tasks by due date (displayed in `dd-mm-yyyy` format)
-- 🗃️ **Task Categorization**: Automatically separates tasks into:
+-  **Add, Delete, and Complete Tasks**
+-  **Task Prioritization**: High, Medium, Low
+-  **Search and Filter**: Filter tasks based on priority and completion status
+-  **Due Date Management**: Sort tasks by due date (displayed in `dd-mm-yyyy` format)
+-  **Task Categorization**: Automatically separates tasks into:
   - Upcoming Tasks
   - Overdue Tasks
   - Completed Tasks
-- 💾 **Local Storage Persistence**: Saves tasks even after browser refresh
-- 🎨 **Responsive UI**: Clean and adaptive design for all devices
+-  **Local Storage Persistence**: Saves tasks even after browser refresh
+-  **Responsive UI**: Clean and adaptive design for all devices
 
 ---
 
@@ -56,7 +56,7 @@ Accessible at: `https://Aryan-Chandani.github.io/elitefit-task-manager`
 
 ---
 
-## 📝 **Assumptions**
+##  **Assumptions**
 - The application runs in modern browsers supporting `localStorage`.
 - Users will provide valid date inputs for task deadlines.
 - Due dates are displayed in **dd-mm-yyyy** format for consistency.
@@ -64,20 +64,12 @@ Accessible at: `https://Aryan-Chandani.github.io/elitefit-task-manager`
 
 ---
 
-## ✨ **Potential Future Improvements**
-- ✏️ **Task Editing**: Modify task details post-creation.
-- 🎯 **Progress Bar**: Visual tracker for task completion.
-- 🗓️ **Recurring Tasks**: Support for daily/weekly task recurrence.
-- 🌙 **Dark Mode**: Toggle for user-preferred themes.
-- 🔄 **Drag & Drop**: Reorder tasks via drag-and-drop functionality.
-- 📤 **Data Export/Import**: Backup and restore tasks with JSON files.
+##  **Potential Future Improvements**
+-  **Task Editing**: Modify task details post-creation.
+-  **Progress Bar**: Visual tracker for task completion.
+-  **Recurring Tasks**: Support for daily/weekly task recurrence.
+-  **Dark Mode**: Toggle for user-preferred themes.
+-  **Drag & Drop**: Reorder tasks via drag-and-drop functionality.
+-  **Data Export/Import**: Backup and restore tasks with JSON files.
 
 ---
-
-## 🤝 **Contributing**
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-✅ **Now you're all set!** Clone, run, and explore the **EliteFit Task Manager** 🚀✨
-
